@@ -2,7 +2,7 @@ streamlit>=1.29,<1.40
 streamlit-folium>=0.19,<0.21
 folium>=0.15,<0.17
 
-# Geo stack
+# Geo stack (prebuilt wheels exist for Python 3.11 on Linux)
 geopandas>=0.14,<1.1
 shapely>=2.0.1,<2.1
 pyproj>=3.5,<3.7
