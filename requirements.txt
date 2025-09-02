@@ -1,14 +1,17 @@
-# Core app
-streamlit>=1.24,<1.30
-streamlit-folium>=0.15,<0.20
-folium>=0.14,<0.16
+# Use with Python 3.11 (recommended for geospatial wheels)
+streamlit>=1.29,<1.40
+streamlit-folium>=0.19,<0.21
+folium>=0.15,<0.17
 
-# Geo stack (Py3.8-compatible pins)
-geopandas==0.13.2
-shapely>=2.0,<2.1
-pyproj>=3.5,<3.7
-fiona>=1.9,<1.10
+# Geo stack (wheel-friendly on Py3.11)
+geopandas>=0.14,<1.1
+shapely>=2.0.1,<2.1
+pyproj>=3.5,<3.7   # needs prebuilt wheels; available for Py3.11 on most platforms
 
 # Data stack
-pandas>=1.5,<2.2
-numpy>=1.23,<2.0
+pandas>=2.1,<2.3
+numpy>=1.26,<2.2
+
+# Notes:
+# - We intentionally OMIT fiona/GDAL to avoid native build issues.
+# - The app reads GeoJSON via json + GeoDataFrame.from_features(), which does not require fiona.
