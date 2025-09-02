@@ -1,12 +1,12 @@
-streamlit>=1.29,<1.40
-streamlit-folium>=0.19,<0.21
-folium>=0.15,<0.17
+streamlit
+streamlit-folium
+folium
 
 # Geo stack (prebuilt wheels exist for Python 3.11 on Linux)
-geopandas>=0.14,<1.1
-shapely>=2.0.1,<2.1
-pyproj>=3.5,<3.7
+geopandas
+shapely
+pyproj
 
 # Data stack
-pandas>=2.1,<2.3
-numpy>=1.26,<2.2
+pandas
+numpy
