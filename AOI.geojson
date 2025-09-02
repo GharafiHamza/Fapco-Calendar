@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"name": "SatXRegions",
+"features": [
+{ "type": "Feature", "properties": { "Id": "Fapco" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 56.378599, 25.325164 ], [ 56.368287, 25.295036 ], [ 56.410168, 25.286603 ], [ 56.448075, 25.296373 ], [ 56.449889, 25.314298 ], [ 56.378599, 25.325164 ] ] ] } }
+]
+}

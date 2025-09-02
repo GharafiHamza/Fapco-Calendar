@@ -1,0 +1,14 @@
+# Core app
+streamlit>=1.24,<1.30
+streamlit-folium>=0.15,<0.20
+folium>=0.14,<0.16
+
+# Geo stack (Py3.8-compatible pins)
+geopandas==0.13.2
+shapely>=2.0,<2.1
+pyproj>=3.5,<3.7
+fiona>=1.9,<1.10
+
+# Data stack
+pandas>=1.5,<2.2
+numpy>=1.23,<2.0
